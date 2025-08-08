@@ -10,57 +10,79 @@ h2 {
     color: #1a0c7d;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;}    
+    text-align: center;
+}
 
-    a {
-        font-size: 2em;
-        color: #2004fa;
-        text-shadow: center;
-        margin-top: 15px;
-    }
-   
-    p {
-        font-size: 1.5em;
-        color: #000000;
-        text-align: center;
-        margin-top: 10px;
-    }   
-    img {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-        height: auto;
-    }
-    table {
-        width: 50%;
-        margin: 20px auto;
-        border-collapse: collapse;
-    }   
+a {
+    font-size: 100px;
+    color: #2004fa;
+    text-shadow: center;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+img {
+    
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
 h3 {
     font-size: 2em;
     color: #0509f8;
     text-align: center;
     margin-top: 20px;
-}   
+}
+
 fieldset {
     border: 2px solid #015aff;
     padding: 20px;
     margin: 20px auto;
     width: 50%;
 }
+
 a:hover {
-          color: #ff0000;
-          text-decoration: underline;           
-          text-align: center;   
+    color: #ff0000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 100px;
 }
 
-.linkedin {
-    width: 50px;
-    height: 50px;
-    background-image: url('linkedin.png');
-    background-size: cover;
-    margin: 0 auto;
-}   
+a:visited :hover {
+    color: #07ee13;
+    text-decoration: none;
+    font-size: 20px;
+  color: rgb(255, 6, 6);
+}
+
+
+
+.perfil-linkedin  {
+    color: #0077b5;
+    text-decoration: none;
+    font-weight: center;
+    text-align: center;
+}
+body {
+   text-align: center ;
+}
+
+
 
 
 /*   07/08/2025    */
