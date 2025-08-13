@@ -10,57 +10,105 @@ h2 {
     color: #1a0c7d;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;}    
+    text-align: center;
+}
 
-    a {
-        font-size: 2em;
-        color: #2004fa;
-        text-shadow: center;
-        margin-top: 15px;
-    }
-   
-    p {
-        font-size: 1.5em;
-        color: #000000;
-        text-align: center;
-        margin-top: 10px;
-    }   
-    img {
-        display: block;
-        margin: 0 auto;
-        width: 50%;
-        height: auto;
-    }
-    table {
-        width: 50%;
-        margin: 20px auto;
-        border-collapse: collapse;
-    }   
+a {
+    font-size: 2em;
+    color: #2004fa;
+    text-shadow: center;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;   
+    margin-bottom: 20px;
+    line-height: 1.6;
+    padding: 0 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+    height: auto;       
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
 h3 {
     font-size: 2em;
     color: #0509f8;
     text-align: center;
     margin-top: 20px;
-}   
+}
+
 fieldset {
     border: 2px solid #015aff;
     padding: 20px;
     margin: 20px auto;
     width: 50%;
 }
+
 a:hover {
-          color: #ff0000;
-          text-decoration: underline;           
-          text-align: center;   
+    color: #ff0000;
+    text-decoration: underline;
+    text-align: center;
 }
 
-.linkedin {
+a .linkedin {
     width: 50px;
     height: 50px;
     background-image: url('linkedin.png');
     background-size: cover;
     margin: 0 auto;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    font-size: 1.2em;
+}
+label {
+    font-size: 1.5em;
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
 }   
 
 
+button {
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center; 
+    display: block;
+    margin-left: center;  
+}
 /*   07/08/2025    */
