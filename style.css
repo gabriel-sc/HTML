@@ -2,52 +2,45 @@ h1 {
     font-size: 5em;
     color: #2c09f1;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 20px !important;         
     color: #1a0c7d;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
 a {
     font-size: 2em;
     color: #2004fa;
-    text-shadow: center;
     margin-top: 15px;
 }
 
-p {
-    font-size: 1.5em;
-    color: #000000;
-    text-align: center;
-    margin-top: 10px;   
-    margin-bottom: 20px;
-    line-height: 1.6;
-    padding: 0 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
+img {
+    float: left;
+    margin-right: 10px; 
 
 }
-
-img {
-    display: block;
+p {
+    font-size: 1;
+    color: #000000;
+    text-align: justify;
     margin: 20px auto;
-    width: 25%;
-    height: auto;       
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    
+    width: 80%;
+    line-height: 1.6;
+    border: #2004fa 2px solid;
+    padding:5px;
 }
 
 table {
-    width: 50%;
-    margin: 20px auto;
+    width: 100px;
+    margin: 20px auto;      
     border-collapse: collapse;
+    border-color: #1a0c7d
+    
 }
 
 h3 {
@@ -70,18 +63,19 @@ a:hover {
     text-align: center;
 }
 
-a .linkedin {
-    width: 50px;
-    height: 50px;
-    background-image: url('linkedin.png');
-    background-size: cover;
-    margin: 0 auto;
-    text-decoration: underline;
-}
+
+
 
 div {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;    
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+        
 }
 textarea {
     width: 80%;
