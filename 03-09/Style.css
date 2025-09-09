@@ -61,8 +61,31 @@ header {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    animation: slideInFromLeft 10s ease-out;
+    
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+    background-color: aqua;
+  }
+  25% {
+    background-color: lime;
+    transform: translateX(-75%);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-50%);
+    opacity: 0.5;
+    background-color: gold;
+    }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+    background-color: violet;
+  }}   
 .menu li {
     margin: 0;
 }

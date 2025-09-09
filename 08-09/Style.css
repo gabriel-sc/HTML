@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.flex-item {
+  background-color: coral;
+  width: 60px;
+  height: 60px;
+  background-color: crimson;
+  color: violet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
